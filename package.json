@@ -1,5 +1,8 @@
 {
   "name": "journalize",
+  "author": "Chadly Riedewald",
+  "description": "Web application built for my education at Novi Hogeschool",
+  "homepage": "https://github.com/ChadlyRiedewald/journalize",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
