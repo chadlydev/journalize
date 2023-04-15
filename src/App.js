@@ -1,6 +1,6 @@
 import { globalStyles } from 'stitches.config';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Home from 'routes/Home';
+import Home from 'routes/home/Home';
 import { useAuth } from './context';
 import Dashboard from './routes/Dashboard';
 import DashboardHome from './routes/DashboardHome';
