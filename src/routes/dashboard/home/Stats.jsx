@@ -23,9 +23,9 @@ export const Stats = () => {
       setCurrentStreak(getCurrentStreak(dates));
       setStreakRecord(getStreakRecord(dates));
 
-      if (!isToday(user.createdAt.toDate())) {
+      if (!isToday(user.createdAt?.toDate())) {
         setDaysJournaling(
-          formatDistanceToNowStrict(user?.createdAt?.toDate(), {
+          formatDistanceToNowStrict(new Date(user.createdAt.toDate()), {
             unit: 'day',
           }).split(' ')[0]
         );
